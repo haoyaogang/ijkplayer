@@ -28,6 +28,9 @@ android {
         // arm64 { minSdkVersion 21 }
         // x86 {}
     }
+    lintOptions {
+          abortOnError false
+      }
 }
 
 dependencies {
